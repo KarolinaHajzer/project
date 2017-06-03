@@ -1,0 +1,2804 @@
+
+
+
+SUPER-PHARMPERFUMERIADERMOKOSMETYKI 
+
+Przejdź do treści
+ 
+
+
+
+
+
+
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "customer": {
+                            "component": "Magento_Customer/js/view/customer"
+                        }
+                    }
+                }
+            }
+        }
+        
+
+
+        Zaloguj się    
+
+Utwórz konto
+Przełącznik Nav
+
+
+
+
+
+
+
+Klub lifestyle
+
+
+ Gazetka 
+
+
+Lista sklepów
+
+
+
+
+
+Mój koszyk
+
+
+()
+                
+
+
+
+
+
+
+
+
+
+
+            window.checkout = {"shoppingCartUrl":"https:\/\/www.superpharm.pl\/checkout\/cart\/","checkoutUrl":"https:\/\/www.superpharm.pl\/checkout\/","updateItemQtyUrl":"https:\/\/www.superpharm.pl\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/www.superpharm.pl\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/www.superpharm.pl\/pl\/","minicartMaxItemsVisible":5,"websiteId":"1","customerLoginUrl":"https:\/\/www.superpharm.pl\/customer\/account\/login\/","isRedirectRequired":true,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.superpharm.pl\/captcha\/refresh\/","isRequired":false},"guest_checkout":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.superpharm.pl\/captcha\/refresh\/","isRequired":false}}};
+        
+
+
+        {
+            "[data-block='minicart']": {
+                "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals","children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}}}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"uiComponent","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https://www.superpharm.pl/media/frontend/Bold/default/pl_PL/images/loader-1.gif",
+                "js/mobilemenu": {}
+            }
+        }
+        
+
+
+
+Szukaj
+
+
+
+
+Szukaj
+
+
+
+
+
+
+
+
+Szukaj
+
+
+
+
+
+ 
+
+
+Menu
+
+
+
+
+O NASLifePORADNIKIZdrowiePięknoPRACAPRACA W SUPER-PHARMSTAŻEOFERTY PRACYKONTAKTOFERTAGAZETKI I FOLDERY PROMOCJEKONKURSY 
+
+
+
+Konto
+
+
+
+
+
+
+
+
+
+                                Strona główna                            
+
+
+
+
+
+                                SUPER-PHARM                            
+
+
+
+
+
+
+                                OFERTA                            
+
+
+
+
+
+PROMOCJE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+
+ 
+
+Promocje aktualne:
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+Promocje zakończone:
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+ 
+
+
+        window.authenticationPopup = {"customerRegisterUrl":"https:\/\/www.superpharm.pl\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.superpharm.pl\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.superpharm.pl\/pl\/"};
+    
+
+
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https://www.superpharm.pl/media/frontend/Bold/default/pl_PL/images/loader-1.gif"
+            }
+        }
+    
+
+
+{"*":{"Magento_Customer\/js\/section-config":{"sections":{"stores\/store\/switch":"*","directory\/currency\/switch":"*","*":["messages"],"customer\/account\/logout":"*","customer\/account\/loginpost":"*","customer\/account\/createpost":"*","customer\/ajax\/login":["checkout-data","cart"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"checkout\/cart\/add":["cart"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","checkout-data","last-ordered-items"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","checkout-data"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"multishipping\/checkout\/overviewpost":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"review\/product\/post":["review"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"braintree\/paypal\/placeorder":["cart","checkout-data"]},"clientSideSections":["checkout-data"],"baseUrls":["https:\/\/www.superpharm.pl\/"]}}}
+
+    window.boldCustomerDataSettings = {
+        sectionLoadUrl: 'https://www.superpharm.pl/customer/section/load/',
+        cookieLifeTime: 86400,
+        updateSessionUrl: 'https://www.superpharm.pl/customer/account/updateSession/'
+    };
+
+
+{"*":{"Magento_Customer\/js\/customer-data":[]}}
+
+{"*":{"Magento_Banner\/js\/model\/banner":{"sectionLoadUrl":"https:\/\/www.superpharm.pl\/banner\/ajax\/load\/","lastUpdate":"2017-06-02 10:07:01"}}}
+
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.superpharm.pl\/page_cache\/block\/render\/id\/108\/","handles":["default","catalog_category_view","catalog_category_view_type_layered","catalog_category_view_type_layered_without_children","catalog_category_view_id_108","catalog_category_view_layout_update_64a41e4fe59913ff805a1a96155b66d6"],"originalRequest":{"route":"catalog","controller":"category","action":"view","uri":"\/super-pharm\/gazetki-i-foldery\/promocje.html"},"versionCookieName":"private_content_version"}        }
+    }
+
+    {
+        "body": {
+            "requireCookie": {"noCookieUrl":"https:\/\/www.superpharm.pl\/cookie\/index\/noCookies\/","triggers":{"addToWishlistLink":".action.towishlist"}}        }
+    }
+
+{
+    "*":{
+        "listingDataLayer":{
+            "elementWithDataId": ".product-item-info",
+            "itemLinks": [
+                ".product-items .product-item-name a",
+                ".product-items .product-item-photo"
+            ],
+            "productsList": []        }
+    }
+}
+
+
+KLUB LIFESTYLE
+
+Nie posiadasz konta w klubie LifeStyle? Zarejestruj się i odkryj moc rabatów!
+Zarejestruj się
+
+NOWA GAZETKA
+
+Wreszcie nadchodzi lato. Czas zabawy, długich ciepłych i słonecznych dni. A u nas to czas słonecznych okazji zakupowych.
+Zobacz gazetkę
+
+NOWA GAZETKA
+
+Wyjątkowe promocje dla najmłodszych. Skorzystajcie z najnowszej oferty dla naszych Klubowiczów LifeStyle MamyDzieci. 
+Zobacz gazetkę
+
+APLIKACJA MOBILNA
+
+Dzięki naszej aplikacji nie ominie Cię żadna promocja, w każdej chwili przejrzysz aktualną gazetkę, a także znajdziesz najbliższy sklep.
+Pobierz aplikację
+Formy płatności
+Bezpieczne i szybkie płatności online gwarantuje system Przelewy24. Zapłać bezpośrednio przez swój bank lub za pomocą karty.
+Czytaj więcej
+Warunki dostawy
+Darmowa dostawa przy odbiorze w sklepie! Darmowa dostawa kurierem DHL zamówień powyżej 250 zł. Koszt dostawy kurierem mniejszych zamówień to tylko 9,90 zł.
+Czytaj więcej
+Infolinia 801 543 300
+W razie dodatkowych pytań korzystaj z naszej infolinii czynnej w godzinach 8:00-21:00 w dni robocze oraz 9:00 - 15:00 w soboty i niedziele.
+Zadzwoń teraz
+Super-pharm
+
+
+O nas
+
+
+
+
+Praca
+
+
+
+Poradniki
+
+
+
+Kontakt
+
+
+
+
+Informacje o sklepie
+
+Lista sklepów
+
+
+Formy płatności
+
+
+
+
+
+Warunki dostawy
+
+
+
+
+
+Zwroty i reklamacje
+
+
+
+
+
+Regulamin sklepu
+
+
+
+
+
+Polityka prywatności
+
+
+
+
+
+Warunki zwrotu w sklepach stacjonarnych
+
+
+
+
+
+Mapa strony
+
+
+
+
+
+FAQ
+
+
+
+
+
+Bądźmy w kontakcie
+Zapisz się na newsletter i otrzymuj najświeższe informacje o promocjach i nowościach!
+
+
+
+Subskrybuj nasz newsletter:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.psloginButtons = '    <div class="pslogin-block pslogin-login" data-mage-init=\'{"pslogin":{}}\'>        <div class="pslogin-spacer pslogin-clearfix">            <span class="pslogin-title" style="display: none;">Loguj się za pomocą swojego konta w mediach społecznościowych</span>        </div>        <div class="pslogin-buttons pslogin-buttons-showfull">            <ul class="pslogin-clearfix">                            <li class="pslogin-button facebook pslogin-visible"  title="Login with Facebook">                    <a class="pslogin-button-link pslogin-button-click" rel="nofollow" href="javascri'+'pt:void(0);" data-href="https://www.superpharm.pl/pslogin/account/douse/type/facebook/" data-width="650" data-height="350" >                                                                                                                            <span class="pslogin-button-auto  ">                                <span class="pslogin-button-icon">                                                                    </span>                                <span class="pslogin-button-text">Zaloguj przez Facebook</span>                            </span>                                            </a>                </li>                        </ul>                    </div>    </div>    <div style="clear: both;"></div>    <scri'+'pt type="text/javascri'+'pt">        var showFullButtonsAfterViewMore = true;        if (window.psloginButtons) {            requirejs([\'pslogin\']);        }    </scri'+'pt>';
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://www.superpharm.pl/pl/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.superpharm.pl/pl/catalogsearch/result/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+
+
+
+
+© Copyright SUPER-PHARM Poland
+
+
+
+
+
+Created by bold
+
+
+
+
+    {
+        "*":{
+            "js/translateerrors":{}
+        }
+    }
+
+
+ 
+
+Promocje aktualne:
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+Promocje zakończone:
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+ 
+
+
+        window.authenticationPopup = {"customerRegisterUrl":"https:\/\/www.superpharm.pl\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.superpharm.pl\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.superpharm.pl\/pl\/"};
+    
+
+
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https://www.superpharm.pl/media/frontend/Bold/default/pl_PL/images/loader-1.gif"
+            }
+        }
+    
+
+
+{"*":{"Magento_Customer\/js\/section-config":{"sections":{"stores\/store\/switch":"*","directory\/currency\/switch":"*","*":["messages"],"customer\/account\/logout":"*","customer\/account\/loginpost":"*","customer\/account\/createpost":"*","customer\/ajax\/login":["checkout-data","cart"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"checkout\/cart\/add":["cart"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","checkout-data","last-ordered-items"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","checkout-data"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"multishipping\/checkout\/overviewpost":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"review\/product\/post":["review"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"braintree\/paypal\/placeorder":["cart","checkout-data"]},"clientSideSections":["checkout-data"],"baseUrls":["https:\/\/www.superpharm.pl\/"]}}}
+
+    window.boldCustomerDataSettings = {
+        sectionLoadUrl: 'https://www.superpharm.pl/customer/section/load/',
+        cookieLifeTime: 86400,
+        updateSessionUrl: 'https://www.superpharm.pl/customer/account/updateSession/'
+    };
+
+
+{"*":{"Magento_Customer\/js\/customer-data":[]}}
+
+{"*":{"Magento_Banner\/js\/model\/banner":{"sectionLoadUrl":"https:\/\/www.superpharm.pl\/banner\/ajax\/load\/","lastUpdate":"2017-06-02 10:07:01"}}}
+
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.superpharm.pl\/page_cache\/block\/render\/id\/108\/","handles":["default","catalog_category_view","catalog_category_view_type_layered","catalog_category_view_type_layered_without_children","catalog_category_view_id_108","catalog_category_view_layout_update_64a41e4fe59913ff805a1a96155b66d6"],"originalRequest":{"route":"catalog","controller":"category","action":"view","uri":"\/super-pharm\/gazetki-i-foldery\/promocje.html"},"versionCookieName":"private_content_version"}        }
+    }
+
+    {
+        "body": {
+            "requireCookie": {"noCookieUrl":"https:\/\/www.superpharm.pl\/cookie\/index\/noCookies\/","triggers":{"addToWishlistLink":".action.towishlist"}}        }
+    }
+
+{
+    "*":{
+        "listingDataLayer":{
+            "elementWithDataId": ".product-item-info",
+            "itemLinks": [
+                ".product-items .product-item-name a",
+                ".product-items .product-item-photo"
+            ],
+            "productsList": []        }
+    }
+}
+
+
+KLUB LIFESTYLE
+
+Nie posiadasz konta w klubie LifeStyle? Zarejestruj się i odkryj moc rabatów!
+Zarejestruj się
+
+NOWA GAZETKA
+
+Wreszcie nadchodzi lato. Czas zabawy, długich ciepłych i słonecznych dni. A u nas to czas słonecznych okazji zakupowych.
+Zobacz gazetkę
+
+NOWA GAZETKA
+
+Wyjątkowe promocje dla najmłodszych. Skorzystajcie z najnowszej oferty dla naszych Klubowiczów LifeStyle MamyDzieci. 
+Zobacz gazetkę
+
+APLIKACJA MOBILNA
+
+Dzięki naszej aplikacji nie ominie Cię żadna promocja, w każdej chwili przejrzysz aktualną gazetkę, a także znajdziesz najbliższy sklep.
+Pobierz aplikację
+ 
+
+Promocje aktualne:
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+Promocje zakończone:
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "banner": {
+                        "component": "Magento_Banner/js/view/banner"
+                    }
+                }
+            }
+        }
+    }
+
+
+
+ 
+
+
+        window.authenticationPopup = {"customerRegisterUrl":"https:\/\/www.superpharm.pl\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.superpharm.pl\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.superpharm.pl\/pl\/"};
+    
+
+
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https://www.superpharm.pl/media/frontend/Bold/default/pl_PL/images/loader-1.gif"
+            }
+        }
+    
+
+
+{"*":{"Magento_Customer\/js\/section-config":{"sections":{"stores\/store\/switch":"*","directory\/currency\/switch":"*","*":["messages"],"customer\/account\/logout":"*","customer\/account\/loginpost":"*","customer\/account\/createpost":"*","customer\/ajax\/login":["checkout-data","cart"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"checkout\/cart\/add":["cart"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","checkout-data","last-ordered-items"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","checkout-data"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"multishipping\/checkout\/overviewpost":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"review\/product\/post":["review"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"braintree\/paypal\/placeorder":["cart","checkout-data"]},"clientSideSections":["checkout-data"],"baseUrls":["https:\/\/www.superpharm.pl\/"]}}}
+
+    window.boldCustomerDataSettings = {
+        sectionLoadUrl: 'https://www.superpharm.pl/customer/section/load/',
+        cookieLifeTime: 86400,
+        updateSessionUrl: 'https://www.superpharm.pl/customer/account/updateSession/'
+    };
+
+
+{"*":{"Magento_Customer\/js\/customer-data":[]}}
+
+{"*":{"Magento_Banner\/js\/model\/banner":{"sectionLoadUrl":"https:\/\/www.superpharm.pl\/banner\/ajax\/load\/","lastUpdate":"2017-06-02 10:07:01"}}}
+
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.superpharm.pl\/page_cache\/block\/render\/id\/108\/","handles":["default","catalog_category_view","catalog_category_view_type_layered","catalog_category_view_type_layered_without_children","catalog_category_view_id_108","catalog_category_view_layout_update_64a41e4fe59913ff805a1a96155b66d6"],"originalRequest":{"route":"catalog","controller":"category","action":"view","uri":"\/super-pharm\/gazetki-i-foldery\/promocje.html"},"versionCookieName":"private_content_version"}        }
+    }
+
+    {
+        "body": {
+            "requireCookie": {"noCookieUrl":"https:\/\/www.superpharm.pl\/cookie\/index\/noCookies\/","triggers":{"addToWishlistLink":".action.towishlist"}}        }
+    }
+
+{
+    "*":{
+        "listingDataLayer":{
+            "elementWithDataId": ".product-item-info",
+            "itemLinks": [
+                ".product-items .product-item-name a",
+                ".product-items .product-item-photo"
+            ],
+            "productsList": []        }
+    }
+}
+
+
+KLUB LIFESTYLE
+
+Nie posiadasz konta w klubie LifeStyle? Zarejestruj się i odkryj moc rabatów!
+Zarejestruj się
+
+NOWA GAZETKA
+
+Wreszcie nadchodzi lato. Czas zabawy, długich ciepłych i słonecznych dni. A u nas to czas słonecznych okazji zakupowych.
+Zobacz gazetkę
+
+NOWA GAZETKA
+
+Wyjątkowe promocje dla najmłodszych. Skorzystajcie z najnowszej oferty dla naszych Klubowiczów LifeStyle MamyDzieci. 
+Zobacz gazetkę
+
+APLIKACJA MOBILNA
+
+Dzięki naszej aplikacji nie ominie Cię żadna promocja, w każdej chwili przejrzysz aktualną gazetkę, a także znajdziesz najbliższy sklep.
+Pobierz aplikację
+
+KLUB LIFESTYLE
+
+Nie posiadasz konta w klubie LifeStyle? Zarejestruj się i odkryj moc rabatów!
+Zarejestruj się
+
+APLIKACJA MOBILNA
+
+Dzięki naszej aplikacji nie ominie Cię żadna promocja, w każdej chwili przejrzysz aktualną gazetkę, a także znajdziesz najbliższy sklep.
+Pobierz aplikację
+
+Super-pharm
+
+
+O nas
+
+
+
+
+Praca
+
+
+
+Poradniki
+
+
+
+Kontakt
+
+
+
+
+Informacje o sklepie
+
+Lista sklepów
+
+
+Formy płatności
+
+
+
+
+
+Warunki dostawy
+
+
+
+
+
+Zwroty i reklamacje
+
+
+
+
+
+Regulamin sklepu
+
+
+
+
+
+Polityka prywatności
+
+
+
+
+
+Warunki zwrotu w sklepach stacjonarnych
+
+
+
+
+
+Mapa strony
+
+
+
+
+
+FAQ
+
+
+
+
+
+Bądźmy w kontakcie
+Zapisz się na newsletter i otrzymuj najświeższe informacje o promocjach i nowościach!
+
+
+
+Subskrybuj nasz newsletter:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bądźmy w kontakcie
+Zapisz się na newsletter i otrzymuj najświeższe informacje o promocjach i nowościach!
+
+
+
+Subskrybuj nasz newsletter:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
