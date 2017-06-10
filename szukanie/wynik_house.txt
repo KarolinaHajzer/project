@@ -1,0 +1,1 @@
+{'zniżka': [], 'promocja': [], '%': ['„-10% na zakupy w sklepie internetowym marki House”', 'Bądź na bieżąco z nowościami w House i otrzymaj kupon -15% na nową kolekcję!'], 'przecena': [], 'rabat': [], 'wyprzedaż': [], 'okazja': []}
