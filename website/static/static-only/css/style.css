@@ -1,4 +1,4 @@
-/* hero */
+/*-------------------- INDEX html------------------------ */
 html, body{
   height: 100%;
   width: 100%;
@@ -9,7 +9,7 @@ html, body{
 }
 
 #hero{
-  background: url('../img/wallhaven-326273.jpg');
+  background: url('../img/wallhaven-326273.jpg'); /*zdjęcie dla index*/
   background-size: cover;
   background-position: center bottom;
   height: 100%;
@@ -53,7 +53,7 @@ html, body{
   position: center;
   top: 0;
   right: 0;
-  padding: 25px 0 0 25px;
+  padding: 25px 30px 120px 80px;
 
 
 }
@@ -77,4 +77,66 @@ html, body{
 
 #iconRow{
   padding: 60px 0;
+}
+/*---------------------------------------------------------------------------------------HOME PAGE--------------------------------------------------------------------------*/
+#hero-home{
+  background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url('../img/wallhaven-326273.jpg'); /*zdjęcie dla home*/
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+
+
+}
+
+#hero-home-text >  h1 {
+  color: pink;
+  margin-top: -650px;
+}
+
+#hero-home-text >  p {
+  color: white;
+
+}
+/*
+#hero-home > #hero-home-text{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}*/
+
+
+#hero-news{
+  background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url('../img/wallhaven-326273.jpg'); /*zdjęcie dla news*/
+  background-color:black;
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#hero-news-text >  h1 {
+  color: pink;
+  margin-top: -720px;
+  width: 1500px;
+}
+
+#hero-news-text >  p {
+  color: white;
+  width: 1500px;
+
+}
+
+#hero-news-text > hr{
+    background-color: white;
+    width: 1200px;
+    display: block;
+
 }

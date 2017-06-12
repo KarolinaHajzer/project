@@ -21,10 +21,11 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 from start import views
+from home import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^home/', include('home.urls')),
+    url(r'^home/', views.home, name="home"),
     url(r'^news/', include('news.urls')),
     url(r'^search/', include('search.urls')),
     url(r'^$', views.start, name='start')
