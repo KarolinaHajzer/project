@@ -20,15 +20,16 @@ from django.conf.urls import include
 from django.conf import settings
 from django.conf.urls.static import static
 
-from start import views
-from home import views
+from news import views as nviews
+from home import views as hviews
+from start import views as sviews
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^home/', views.home, name="home"),
-    url(r'^news/', include('news.urls')),
+    url(r'^home/', hviews.home, name='home'),
+    url(r'^news/', nviews.news, name='news'),
     url(r'^search/', include('search.urls')),
-    url(r'^$', views.start, name='start')
+    url(r'^$', sviews.start, name='start')
 ]
 
 if settings.DEBUG:

@@ -1,3 +1,5 @@
+{% load staticfiles %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- My css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href='{% static "css/style.css" %}'>
     <!-- FONT AWESOME-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
@@ -21,9 +23,9 @@
       <nav class="custom-navigation">
         <div id="logo">NicePrice</div>
         <ul id="links">
-          <li><a href="../Dlaponczi/home.html"><i class="fa fa-home" aria-hidden="true"></i>HOME</li></a>
-          <li><a href="../Dlaponczi/news.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>NEWS</li></a>
-          <li><a href="../Dlaponczi/news.html"><i class="fa fa-search " aria-hidden="true"></i>SEARCH</li></a>
+          <li><a href="/home/templates/home.html"><i class="fa fa-home" aria-hidden="true"></i>HOME</li></a>
+          <li><a href="/news/templates/news.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>NEWS</li></a>
+          <li><a href=""><i class="fa fa-search " aria-hidden="true"></i>SEARCH</li></a>
         </ul>
       </nav>
     </div>

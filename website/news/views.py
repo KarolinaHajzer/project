@@ -1,4 +1,8 @@
-from django.http import HttpResponse
 
-def index(request):
-    return HttpResponse("<h1>Here gonna be news</h1>")
+from __future__ import unicode_literals
+from django.shortcuts import render
+
+def news(request):
+    context = locals()
+    template = "news.html"
+    return render(request,template,context)
