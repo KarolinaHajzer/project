@@ -1,0 +1,42 @@
+Ten plik zawiera dokumentację działania BeautifulSoup w moim projekcie. 
+Projekt miał na celu wykorzystanie tej biblioteki Pythona, by wyszukiwać poszczególne słowa po ciele stron internetowych i jako wynik dostawać całe zdania, gdzie dane słowa wystąpiły. 
+
+Ja korzystałam z wersji BeautifulSoup4 (BS4) dla wersji Pythona 3.5. Stronę internetową postawioną w Django robiłam w wersji Pythona 2.7. Ze względu na to, że docelowo nie łączę ze sobą Django z BS4 uznałam, że tak może zostać. 
+
+Żeby po krótce wytłumaczyć działanie BS4 w moim projekcie przeanalizuję plik dotyczący strony internetowej house.pl, który znajduje się w katalogu szukanie.
+
+Najpierw oczywiście potrzebne jest zaimportowanie biblioteki oraz wszystkich funkcji z jakich będziemy korzystać:
+	from bs4 import BeautifulSoup
+	import bs4 as bs
+	import requests
+	import urllib.request
+	import sys
+	import re.
+
+Wyznaczamy url, po którym będziemy wyszukiwać naszych słów:
+	base_url = "http://www.house.pl/pl/pl/ona/sprawdz-to/promotion-pl".
+
+Jako soup definiujemy to co będziemy robić z naszym url, czyli za pomocą BS i parsera lxml, będziemy przeszukiwać zawartość naszego base_url:
+	soup  = BeautifulSoup(requests.get(base_url).content,"lxml").
+
+Następnie definiuję listę słów, które chcę żeby były wyszukiwane i jako wyniki tworzę pusty słownik, do którego potem będą wrzucane rezultaty wyszukiwania:
+	slowa = ["promocja","rabat",u"zniżka", "przecena", u"wyprzedaż", "%", "okazja"]
+	wyniki = {}.
+
+Po słowach zawartych w liście za pomocą komendy wyszukuję konkretne słowa, a wynik otrzymuję w słowniku wyniki:
+	for item in slowa:
+	    result = soup.body.findAll(text=re.compile(item))
+	    wyniki[item] = result.
+
+Na koniec zostaje utworzenie osobnego pliku z wynikami:
+	orig_stdout = sys.stdout
+	f = open("wynik_house.txt","w")
+	sys.stdout = f
+
+	print(wyniki)
+
+
+	sys.stdout = orig_stdout
+	f.close().
+
+
